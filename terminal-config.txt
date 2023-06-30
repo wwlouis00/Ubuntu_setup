@@ -1,0 +1,59 @@
+[legacy/profiles:]
+default='59087abe-8b05-4d83-aac5-b139adb4847d'
+list=['90aa5b2e-5044-4b08-9c6a-0fa0c6c18928', 'dbe5660b-2ce9-47fb-9595-15ff56562290', '59087abe-8b05-4d83-aac5-b139adb4847d']
+
+[legacy/profiles:/:59087abe-8b05-4d83-aac5-b139adb4847d]
+background-color='rgb(42,35,86)'
+bold-color-same-as-fg=false
+bold-is-bright=true
+font='FiraCode Nerd Font Semi-Bold 12'
+foreground-color='rgb(211,54,130)'
+login-shell=false
+palette=['rgb(7,54,66)', 'rgb(220,50,47)', 'rgb(251,241,7)', 'rgb(251,241,7)', 'rgb(2,137,236)', 'rgb(211,54,130)', 'rgb(42,161,152)', 'rgb(219,255,0)', 'rgb(134,128,127)', 'rgb(211,54,130)', 'rgb(40,172,214)', 'rgb(238,214,19)', 'rgb(251,241,7)', 'rgb(204,169,154)', 'rgb(201,150,148)', 'rgb(211,54,130)']
+use-system-font=false
+use-theme-colors=false
+visible-name='default'
+
+[legacy/profiles:/:90aa5b2e-5044-4b08-9c6a-0fa0c6c18928]
+allow-bold=true
+background-color='rgb(0,43,54)'
+bold-color='#FFFFFFFFFFFF'
+bold-color-same-as-fg=true
+bold-is-bright=true
+cursor-background-color='#FFFFFFFFFFFF'
+cursor-colors-set=true
+cursor-foreground-color='#27271F1F1919'
+font='Monospace 16'
+foreground-color='rgb(131,148,150)'
+palette=['rgb(0,0,0)', 'rgb(205,0,0)', 'rgb(0,205,0)', 'rgb(205,205,0)', 'rgb(0,0,238)', 'rgb(205,0,205)', 'rgb(0,205,205)', 'rgb(229,229,229)', 'rgb(127,127,127)', 'rgb(255,0,0)', 'rgb(0,255,0)', 'rgb(255,255,0)', 'rgb(92,92,255)', 'rgb(255,0,255)', 'rgb(0,255,255)', 'rgb(255,255,255)']
+use-system-font=false
+use-theme-background=false
+use-theme-colors=false
+use-theme-transparency=false
+visible-name='Neopolitan'
+
+[legacy/profiles:/:b1dcc9dd-5262-4d8d-a863-c897e6d979b9]
+background-color='rgb(0,43,54)'
+bold-is-bright=true
+font='FiraCode Nerd Font Mono weight=453 12'
+foreground-color='rgb(131,148,150)'
+palette=['rgb(0,0,0)', 'rgb(205,0,0)', 'rgb(0,205,0)', 'rgb(205,205,0)', 'rgb(0,0,238)', 'rgb(205,0,205)', 'rgb(0,205,205)', 'rgb(229,229,229)', 'rgb(127,127,127)', 'rgb(255,0,0)', 'rgb(0,255,0)', 'rgb(255,255,0)', 'rgb(92,92,255)', 'rgb(255,0,255)', 'rgb(0,255,255)', 'rgb(255,255,255)']
+use-system-font=false
+use-theme-colors=false
+
+[legacy/profiles:/:dbe5660b-2ce9-47fb-9595-15ff56562290]
+allow-bold=true
+background-color='#2C2C2C2C2C2C'
+bold-color='#CCCCCCCCCCCC'
+bold-color-same-as-fg=true
+bold-is-bright=true
+cursor-background-color='#CCCCCCCCCCCC'
+cursor-colors-set=true
+cursor-foreground-color='#2C2C2C2C2C2C'
+foreground-color='#CCCCCCCCCCCC'
+palette=['#000000000000', '#F2F277777979', '#9999CCCC9999', '#FFFFCCCC6666', '#66669999CCCC', '#CCCC9999CCCC', '#6666CCCCCCCC', '#FFFFFEFEFEFE', '#000000000000', '#F1F177777979', '#9999CCCC9999', '#FFFFCCCC6666', '#66669999CCCC', '#CCCC9999CCCC', '#6666CCCCCCCC', '#FFFFFEFEFEFE']
+use-system-font=false
+use-theme-background=false
+use-theme-colors=false
+use-theme-transparency=false
+visible-name='Tomorrow Night Eighties'
