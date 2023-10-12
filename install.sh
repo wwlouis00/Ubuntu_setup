@@ -30,7 +30,8 @@ sudo apt-get install -y openssh-server
 sudo apt-get install -y zsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 chsh -s $(which zsh)
-
+# 安裝 blanner figlet lolcat
+sudo apt install figlet lolcat
 
 # 安裝新酷音輸入法
 sudo apt-get install -y fcitx fcitx-chewing
