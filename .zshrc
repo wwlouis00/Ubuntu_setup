@@ -133,4 +133,4 @@ eval "$(pyenv init -)"
 
 #printbanner
 figlet -f slant -c "Louis Wang" | lolcat
-figlet -f digital -c " AIVC M11107S08" | lolcat
+figlet -f digital -c "Heavenly Home" | lolcat
