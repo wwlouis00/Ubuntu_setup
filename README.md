@@ -80,4 +80,3 @@ Here are some basic configuration recommendations:
 4. Security Configuration:
 
    Use strong passwords
-   建議設置強密碼以增強系統安全性。開啟防火牆：使用 `ufw` 或其他防火牆工具設置防火牆規則。
