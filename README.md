@@ -1,25 +1,19 @@
-# Ubuntu 簡單設置指南
+# Ubuntu Simple Setup Guide
 
-這份指南提供了一些在Ubuntu上進行基本設置的步驟。這些步驟包括安裝常用軟體、更新系統和進行基本配置。
+This guide provides steps for basic setup on Ubuntu. These steps include installing commonly used software, updating the system, and performing basic configurations.
 
-## 目錄
+## Install Common Software
 
-- [安裝常用軟體](#安裝常用軟體)
-- [更新系統](#更新系統)
-- [基本配置](#基本配置)
+Here are the steps to install some commonly used software:
 
-## 安裝常用軟體
-
-以下是安裝一些常用軟體的步驟：
-
-1. 安裝Git：
+1. Install Git：
 
    ```bash
    sudo apt-get update
    sudo apt-get install -y git
    ```
 
-2. 安裝Docker：
+2. Install Docker：
 
    ```bash
    sudo apt-get remove docker docker-engine docker.io containerd runc
@@ -32,64 +26,58 @@
    sudo usermod -aG docker $USER
    ```
 
-3. 安裝Python 3：
+3. Install Python3：
 
    ```bash
    sudo apt-get install -y python3
    ```
 
-4. 安裝Vim：
+4. Install Vim：
 
    ```bash
    sudo apt-get install -y vim
    ```
 
-5. 安裝FileZilla：
+5. Install FileZilla：
 
    ```bash
    sudo apt-get install -y filezilla
    ```
 
-## 更新系統
+## Update system
 
-在開始使用Ubuntu之前，建議確保系統是最新的。可以運行以下命令進行系統更新：
+Before starting to use Ubuntu, it is advisable to ensure that the system is up to date. You can run the following command to update the system:
 
 ```bash
 sudo apt-get update
 sudo apt-get upgrade -y
 ```
 
-## 基本配置
+## Basic configuration.
 
-這裡列出了一些基本配置建議：
+Here are some basic configuration recommendations:
 
-1. 設置時區：
+1. Set the time zone:
 
    ```bash
    sudo dpkg-reconfigure tzdata
    ```
 
-   依照提示選擇適合你所在地區的時區。
+   Choose the time zone that corresponds to your region, following the prompts.
 
-2. 設置系統語言：
+2. Set the system language:
 
    ```bash
    sudo dpkg-reconfigure locales
    ```
 
-   依照提示選擇適合你的語言設置。
+   Select the language settings that are appropriate for you, following the prompts.
 
-3. 增加額外的軟體庫：
+3. Add additional software repositories:
 
-   根據需要，你可以添加額外的軟體庫以獲取更多軟體套件。
+   As needed, you can add additional repositories to obtain more software packages.
 
-4. 安全性配置：
+4. Security Configuration:
 
-   - 使用強密碼：
-
-建議設置強密碼以增強系統安全性。
-   - 開啟防火牆：使用 `ufw` 或其他防火牆工具設置防火牆規則。
-
-以上只是一些基本的配置建議，根據個人需求可能會有所不同。
-
-這只是一個簡單的Ubuntu設置指南範例，你可以根據需要進行擴充和自定義。希望對你有所幫助！
+   Use strong passwords
+   建議設置強密碼以增強系統安全性。開啟防火牆：使用 `ufw` 或其他防火牆工具設置防火牆規則。
