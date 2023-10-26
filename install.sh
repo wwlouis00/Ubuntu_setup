@@ -36,6 +36,9 @@ sudo apt install figlet lolcat
 # 安裝新酷音輸入法
 sudo apt-get install -y fcitx fcitx-chewing
 
+sudo apt install cmatrix
+
+sudo apt install ranger
 # 開啟SSH服務
 sudo systemctl enable ssh
 sudo systemctl start ssh
