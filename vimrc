@@ -52,12 +52,17 @@ endif
 if filereadable("/etc/vim/vimrc.local")
   source /etc/vim/vimrc.local
 endif
+
+set cursorline
+hi CursorLine cterm=none ctermbg=DarkMagenta ctermfg=none
+set hlsearch
+set ru
 set number
+set ruler
+set showmode
 set history=100
 set incsearch
-set showmode
 set ruler
-set cursorline
 set autoindent
 set smarttab
 set mouse=a
@@ -65,8 +70,12 @@ set mouse=a
 set hls
 set ai 
 set ic
+set cindent
+set laststatus=2
 set wrap
 set enc=utf8
 set noeb
 set autochdir
-colorscheme torte
+set expandtab
+colorscheme torte 
+
