@@ -4,6 +4,10 @@
 sudo apt-get update
 sudo apt-get install -y git
 
+# 刪除老舊的python版本
+sudo apt-get purge python2.7 
+sudo apt-get purge --auto-remove python2.7
+
 # 安裝Docker
 sudo apt-get remove docker docker-engine docker.io containerd runc
 sudo apt-get update
