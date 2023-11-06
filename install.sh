@@ -33,6 +33,8 @@ sudo apt-get install -y filezilla
 # OpenSSH Server
 sudo apt-get install -y openssh-server
 
+sudo apt-get install qttools5-dev-tools 
+
 # Oh My Zsh
 sudo apt-get install -y zsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
