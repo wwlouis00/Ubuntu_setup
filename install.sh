@@ -1,14 +1,14 @@
 #!/bin/bash
 
-# 安裝Git
+# Git
 sudo apt-get update
 sudo apt-get install -y git
 
-# 刪除老舊的python版本
+# remove old python 
 sudo apt-get purge python2.7 
 sudo apt-get purge --auto-remove python2.7
 
-# 安裝Docker
+# Docker
 sudo apt-get remove docker docker-engine docker.io containerd runc
 sudo apt-get update
 sudo apt-get install -y apt-transport-https ca-certificates curl gnupg lsb-release
@@ -18,33 +18,40 @@ sudo apt-get update
 sudo apt-get install -y docker-ce docker-ce-cli containerd.io
 sudo usermod -aG docker $USER
 
-# 安裝Python 3
+# Python 3
 sudo apt-get install -y python3
 
-# 安裝Vim
+# Vim
 sudo apt-get install -y vim
 
-# 安裝FileZilla
+# Neovim
+sudo apt-get install -y neovim
+
+# FileZilla
 sudo apt-get install -y filezilla
 
-# 安裝OpenSSH Server
+# OpenSSH Server
 sudo apt-get install -y openssh-server
 
-# 安裝Oh My Zsh
+# Oh My Zsh
 sudo apt-get install -y zsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 chsh -s $(which zsh)
-# 安裝 blanner figlet lolcat
+
+# blanner figlet lolcat
 sudo apt install figlet lolcat
 
 # 安裝新酷音輸入法
 sudo apt-get install -y fcitx fcitx-chewing
 
+# cmatrix
 sudo apt install cmatrix
 
+# ranger
 sudo apt install ranger
-# 開啟SSH服務
+
+# SSH
 sudo systemctl enable ssh
 sudo systemctl start ssh
 
-echo "安裝完成"
+echo "Setup successfully ！！！"
