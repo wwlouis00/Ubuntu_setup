@@ -4,10 +4,6 @@
 sudo apt-get update
 sudo apt-get install -y git
 
-# remove old python 
-sudo apt-get purge python2.7 
-sudo apt-get purge --auto-remove python2.7
-
 # Docker
 sudo apt-get remove docker docker-engine docker.io containerd runc
 sudo apt-get update
@@ -51,7 +47,8 @@ sudo apt install cmatrix
 
 # ranger
 sudo apt install ranger
-
+sudo apt install htop
+sudo apt install tmux
 # SSH
 sudo systemctl enable ssh
 sudo systemctl start ssh
