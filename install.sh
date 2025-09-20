@@ -1,5 +1,6 @@
 #!/bin/bash
 
+echo "V1 Install script"
 # Git
 sudo apt-get update
 sudo apt-get install -y git
@@ -53,4 +54,4 @@ sudo apt install tmux
 sudo systemctl enable ssh
 sudo systemctl start ssh
 
-echo "Setup successfully ！！！"
+echo "Setup successfully"
