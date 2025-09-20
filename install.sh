@@ -21,8 +21,10 @@ sudo apt-get install -y python3
 # Vim
 sudo apt-get install -y vim
 
-# Neovim
-sudo apt-get install -y neovim
+# Pyenv
+chmod +x ./pyenv_install.sh
+
+source ./install_pyenv_with_python.sh
 
 # FileZilla
 sudo apt-get install -y filezilla
